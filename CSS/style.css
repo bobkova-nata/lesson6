@@ -1,0 +1,285 @@
+body {
+	background-image: url("../IMG/bg.jpg");
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+.wrapper{
+	overflow: hidden;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+.wrapper .container {
+	width: 780px;
+	margin: 0 auto;
+}
+
+.header{
+	float: none;
+}
+
+.header-menu
+{
+  margin-left: 610px;
+  background: white;
+  border-radius:0 0 20px 20px;
+  width: 160px;
+  height: 25px;
+  font-size: 8pt;
+}
+
+.header-menu ul {
+	float:right;
+
+}
+
+.header-menu ul li {
+	box-sizing: border-box;
+	float:left;
+	display: inline;
+}
+
+.header-menu ul li a {
+	text-decoration: none;
+	box-sizing: border-box;
+	color: grey;
+	padding: 5px 10px 5px 10px;
+	display:inline-block;
+
+	text-transform: lowercase;
+}
+
+.header-menu ul li a:hover, .menu ul li.active a {
+	color: blue;
+	background: white;
+
+}
+
+.header-menu ul li:first-child  a{
+		border-bottom-left-radius: 30px;
+
+}
+
+.header-menu ul li:last-child  a{
+	border-bottom-right-radius: 30px;
+	border-left: 1px  solid grey;
+}
+
+.header-logo {
+	padding-top: 18px;
+	float: left;
+}
+
+.header-title{
+	float: none;
+	padding-top: 40px;
+	padding-left: 450px;
+	padding-bottom: 50px;
+
+}
+
+h3{
+	font-size: 12pt;
+}
+.menu{
+	border-bottom: 1px solid grey;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20px;
+
+}
+
+.menu ul {
+	float:right;
+	margin-bottom: -1px;
+}
+
+.menu ul li {
+	box-sizing: border-box;
+	float:left;
+	display: inline;
+}
+
+.menu ul li a{
+	box-sizing: border-box;
+	border: 1px solid grey;
+
+	background: linear-gradient(to bottom, transparent, #ccc);
+	border-right: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: grey;
+	padding: 15px 30px;
+	display:inline-block;
+	text-transform: lowercase;
+}
+
+.menu ul li a:hover, .menu ul li.active a {
+	color: #50c1f0;
+	border-bottom: 1px solid #e8eeee;
+	background: linear-gradient(to bottom, #fff, #e8eeee);
+}
+
+.menu ul li:first-child  a{
+	border-top-left-radius: 30px;
+}
+
+.menu ul li:last-child  a{
+	border-top-right-radius: 30px;
+	border-right: 1px solid grey;
+}
+
+.sidebar {
+	width: 230px;
+	paddind-right: 30px;
+  float: left;
+}
+
+h2 {
+	color: #50c1f0;
+	font-size: 14pt;
+	padding-top: 30px;
+}
+
+.sitebar-categories ul{
+	padding-top: 30px;
+}
+
+.sitebar-categories ul li{
+	line-height: 2;
+	border-bottom: 1px grey solid;
+}
+
+.sitebar-categories ul li:last-child{
+	border-bottom: none;
+}
+
+.sitebar-categories ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.sitebar-categories ul li a i {
+	color: #50c1f0;
+
+}
+.sitebar-categories ul li a i:hover, .sitebar-categories ul li.active a i{
+ 	color: red;
+}
+.sitebar-categories ul li a:hover, .sitebar-categories ul li.active a {
+ 	color: blue;
+}
+
+.sitebar-logo {
+	border-top: 1px grey solid;
+	line-height: 2;
+	margin-top: 44px;
+}
+
+.sitebar-logo-RSS {
+	border: 3px orange solid;
+	border-radius:20px 20px 20px 20px;
+	width: 100px;
+	height: 30px;
+	margin-top:14px;
+	margin-left:66px;
+	margin-bottom:14px;
+	color: grey;
+}
+.sitebar-logo-RSS a i{
+	padding-left: 20px;
+	color: orange;
+	font-size: 20px;
+}
+
+.sitebar-logo-RSS a {
+	text-decoration: none;
+	color: grey;
+}
+
+.sitebar-logo-RSS a:hover, .sitebar-logo-RSS.active a {
+ 	color: blue;
+}
+
+.sitebar-logo ul{
+	border-top: 1px grey solid;
+	line-height: 2;
+	padding-top:30px;
+	padding-left: 66px;
+	float: none;
+}
+
+.content{
+	margin-left: 250px;
+	padding-top: 60px;
+	font-size: 10pt;
+	float: none;
+}
+
+h1{
+	font-size: 18pt;
+	font-width: bold;
+}
+
+.content ul{
+	padding-top: 24px;
+
+}
+.logo-content {
+	width: 132px;
+	float: left;
+}
+.content-title a{
+	text-decoration: none;
+	color:#50c1f0;
+}
+
+.content-title {
+	font-size: 16pt;
+	color:#50c1f0;
+}
+
+.content ul li {
+	border-top: 1px grey solid;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.content ul li table{
+	width: 394px;
+	allign: left;
+	padding-top:12px;
+	line-height: 2;
+	padding-left: 6px;
+	float: none;
+}
+
+.content ul li table tr{
+	background-color: #dfe4e7;
+	border: 2px white solid;
+}
+
+.footer{
+	border-top:2px grey solid;
+	margin-top: 10px;
+}
+
+.footer.write{
+	margin-left: 248px;
+  background: #d9dbda;
+  border-radius:0 0 30px 30px;
+  width: 504px;
+  height: 30px;
+	margin-bottom: 10px;
+	font-size:8pt;
+}
+
+.write a {
+text-decoration: none;
+}
